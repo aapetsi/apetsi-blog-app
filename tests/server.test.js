@@ -1,8 +1,5 @@
-const request = require('supertest')
-const app = require('../server')
-
-describe('server file', () => {
-  test('should work', () => {
+describe('server', () => {
+  test('should work', async () => {
     expect(1).toBe(1)
   })
 })
